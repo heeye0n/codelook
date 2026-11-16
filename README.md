@@ -3,7 +3,8 @@
 > HCI(Human Computer Interface) 개인 프로젝트 · 조희연 (223630)
 > 무신사 모바일 앱의 **검색 → 필터 → 상품 상세(사이즈 결정)** 흐름 개선 기획을 Claude Code로 구현한 웹 프로토타입입니다.
 
-- 🔗 **배포 링크:** (배포 후 기입)
+- 🔗 **배포 링크:** https://heeye0n.github.io/codelook/
+- 💻 **소스 코드:** https://github.com/heeye0n/codelook
 - 📝 **개발 프롬프트 기록:** [PROMPTS.md](PROMPTS.md)
 
 ## 1. 프로젝트 개요
