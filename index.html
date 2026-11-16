@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CodeLook</title>
+  <meta name="description" content="패션 용어를 몰라도 내 말로 바지를 찾고 사이즈까지 정하는 '쇼핑 언어 번역' UX 프로토타입 (HCI 개인 프로젝트)">
+  <meta name="theme-color" content="#1F4E4A">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231F4E4A'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23fff' font-family='monospace' font-weight='700'%3E%7B%7D%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <div class="shell">
+    <div id="app" aria-live="off"></div>
+  </div>
+  <div id="sheet" hidden>
+    <div class="panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title"></div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>이 프로토타입은 JavaScript가 필요해요.</noscript>
+  <script src="js/data.js"></script>
+  <script src="js/illus.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
